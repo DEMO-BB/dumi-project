@@ -1,4 +1,26 @@
+// src/Foo/index.md
 
+<code
+src="./demo.tsx"
+title="Foo demo"
+thumbnail="http://uskid.com/favicon.ico"
+previewUrl="http://localhost:8000"
+
+> </code>
+
+<!-- ```jsx
+/**
+ * title: Foo demo
+ * thumbnail: [http://uskid.com/favicon.ico]
+ * previewUrl: [http://localhost:8000]
+ * /
+import React from 'react';
+import { Foo } from 'dumi-demo';
+
+export default () => <Foo title="First Demo" />;
+``` -->
+
+<!--
 ## Foo
 
 Demo:
@@ -33,4 +55,4 @@ export default () => <Foo title="First Demo" />;
 Demo3:
 <code src="./demo.tsx"></code>
 
-More skills for writing demo: https://d.umijs.org/guide/demo-principle
+More skills for writing demo: https://d.umijs.org/guide/demo-principle -->
