@@ -1,24 +1,19 @@
 // src/Foo/index.md
 
-<code
+<!-- <code
 src="./demo.tsx"
 title="Foo demo"
 thumbnail="http://uskid.com/favicon.ico"
 previewUrl="http://localhost:8000"
 
-> </code>
+> </code> -->
 
-<!-- ```jsx
-/**
- * title: Foo demo
- * thumbnail: [http://uskid.com/favicon.ico]
- * previewUrl: [http://localhost:8000]
- * /
+```jsx
 import React from 'react';
 import { Foo } from 'dumi-demo';
 
 export default () => <Foo title="First Demo" />;
-``` -->
+```
 
 <!--
 ## Foo
